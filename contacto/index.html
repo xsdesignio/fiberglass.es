@@ -1,0 +1,62 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+            
+        <header id="header">
+            <div class="header-wrapper">
+                <a href="#" class="logo-wrapper hidden">
+                    <img class="header-logo" src="assets/logo_fiberglass.png"></img>
+                </a>
+                <div class="header-navigator">
+                    <nav class="header-menu">
+                        <ul class="header-menu-list">
+                            <li><a href="../sobre-nosotros/index.html" onclick="openCloseMenu()">Quienes Somos</a></li>
+                            <li><a href="#about-us" onclick="openCloseMenu()">Servicios</a></li>
+                            <li><a href="#how-we-work" onclick="openCloseMenu()">Nuestro Trabajo</a></li>
+                            <li><a class="button" href="#meeting-schedule" onclick="openCloseMenu()">Contáctanos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="menu-wrapper">
+                    <button onclick="openCloseMenu()" class="menu-button">
+                        <canvas id="toggle-menu-canvas" width="20" height="20"></canvas>
+                    </button>
+                    <div class="menu-content" id="menu-content">
+                        <nav class="main-menu">
+                            <ul class="main-menu-list">
+                                <li><a href="#created-webs" onclick="openCloseMenu()">Quienes Somos</a></li>
+                                <li><a href="#about-us" onclick="openCloseMenu()">Servicios</a></li>
+                                <li><a href="#how-we-work" onclick="openCloseMenu()">Nuestro Trabajo</a></li>
+                                <li><a class="button" href="#meeting-schedule" onclick="openCloseMenu()">Contáctanos</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="opacity-layer"></div>
+            </div>
+        </header>
+
+        <section class="normal-section portfolio-section" id="created-webs">
+            <div class="normal-section--title">
+                <h2>Algunas webs que hemos creado</h2>
+            </div>
+            <div class="portfolio-webs">
+                <div class="portfolio-web hidden">
+                    <img src="./assets/portfolio/frio-antakira.png" alt="">
+                    <p>Transportes <b>Frío Antakira</b></p>
+                </div>
+                <div class="portfolio-web hidden">
+                    <img src="./assets/portfolio/bleckin.png" alt="">
+                    <p><b>Bleckin</b>, comunidad alrededor de las criptomonedas</p>
+                </div>
+                <div class="portfolio-web hidden">
+                    <img src="./assets/page-1.png" alt="">
+                    <p>Página web de restaurante <b>Aranda</b></p>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>

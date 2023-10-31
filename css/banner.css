@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface'); 
+
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    /* background: linear-gradient(60deg, #00FFD1, #5200FF); */
+    background-color: var(--red);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin-top: 84px;
+    padding: 0;
+    height: fit-content;
+    border-bottom: 1px solid var(--dark-blue);
+}
+
+
+.banner-image {
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/images/trailer.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-content--wrapper {
+    padding: 80px 28px;
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    max-width: 720px;
+    height: fit-content;
+    text-align: left;
+    overflow: hidden;
+}
+
+.banner-content {
+    display: grid;
+    gap: 28px;
+}
+
+.banner-content .partners {
+    width: fit-content;
+}
+
+.banner-logos {
+    width: fit-content;
+    margin-right: 10px;
+}
+.banner-logos img{
+    height: 80px;
+    margin-right: 40px;
+}
+
+.banner-logos img.logo-schmitz  {
+    padding: 10px;
+    height: 60px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.banner-title {
+    font-size: 2.8em;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.banner-description {
+    max-width: 520px;
+    font-size: 1em;
+}
+
+.banner-buttons {
+    margin-top: 20px;
+}
+
+
+@media (max-width: 600px) and (orientation: portrait){
+    .banner {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto, 1fr);
+        padding: 0;
+        height: auto;
+    }
+
+    .banner-content {
+        padding: 20px 20px 0 20px;
+    }
+
+    .banner-image {
+        height: 400px;
+        order: 1;
+    }
+    .banner-content--wrapper {
+        padding: 80px 0;
+        order: 0;
+        height: fit-content;
+    }
+    
+    .banner-buttons {
+        margin-top: 20px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .banner-logos img{
+        height: 60px;
+        margin-right: 20px;
+    }
+
+    .banner-logos img.logo-schmitz  {
+        padding: 6px;
+        height: 48px;
+        background-color: white;
+        border-radius: 12px;
+    }
+
+    .banner-content {
+        text-align: right;
+    }
+    .banner-content .main-button {
+        margin-top: 60px;
+    }
+    .banner-description {
+        text-align: left;
+    }
+    .banner-title {
+        font-size: 32px;
+        text-align: left;
+    }
+    .banner-visuals img {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+.img-bg3 {
+    background-image: url('../assets/images/carroceria6.jpeg');
+    transform: rotateY('-90deg')
+}
+
+.img-bg2 {
+    background-image: url('../assets/images/carroceria3.jpeg');
+}
+.img-bg1 {
+    background-image: url('../assets/images/carroceria.jpeg');
+}
