@@ -26,6 +26,9 @@
     padding: 80px 20px 100px 20px;
 }
 
+.red-section .services-title {
+    font-size: 1.2em !important;
+}
 .service {
     display: grid;
     place-items: center;
@@ -123,6 +126,10 @@
     .service.two-grid-size {
         grid-column: span 1;
 
+    }
+    .service h1 {
+        width: 100%;
+        text-align: left;
     }
 
     .services-title {

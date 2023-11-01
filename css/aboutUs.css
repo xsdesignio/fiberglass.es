@@ -70,7 +70,6 @@
     }
     .about-us__graphics img {
         max-width: 100%;
-        max-width: 360px;
         margin-left: 0;
     }
 }
