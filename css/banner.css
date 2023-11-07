@@ -110,7 +110,12 @@
     }
     
     .banner-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
         margin-top: 20px;
+        gap: 20px;
         width: 100%;
         text-align: left;
     }

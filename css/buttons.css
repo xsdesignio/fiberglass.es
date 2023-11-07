@@ -1,6 +1,7 @@
 
 .button {
-  padding: 12px 24px;
+  display: block;
+  padding: 10px 20px;
   background-color: var(--yellow);
   cursor: pointer;
   text-shadow: 0px 0px 20px white;
@@ -31,7 +32,8 @@
 
 
 .secondary-button {
-  padding: 12px 24px;
+  display: block;
+  padding: 10px 20px;
   background-color: transparent;
   cursor: pointer;
   text-align: center;
@@ -41,7 +43,6 @@
   font-weight: bold;
   text-decoration: none;
   color: white;
-  margin-left: 20px;
   /* box-shadow: #00334e8f 0 18px 32px; */
   transition: .2s;
   width: fit-content;
