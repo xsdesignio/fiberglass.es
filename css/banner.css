@@ -21,7 +21,7 @@
 .banner-image {
     height: 100%;
     width: 100%;
-    background-image: url(../assets/images/carrier/Carrier_Vector_S_15_LR.webp);
+    background-image: url(../assets/images/4.webp);
     background-position: center;
     background-size: cover;
 }
@@ -76,7 +76,14 @@
 }
 
 .banner-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-start;
+    align-items: center;
     margin-top: 20px;
+    gap: 10px;
+    width: fit-content;
+    max-width: 100%;
 }
 
 
@@ -107,17 +114,6 @@
         padding: 80px 0;
         order: 0;
         height: fit-content;
-    }
-    
-    .banner-buttons {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-        gap: 20px;
-        width: 100%;
-        text-align: left;
     }
 
     .banner-logos {
@@ -164,13 +160,13 @@
 
 
 .img-bg3 {
-    background-image: url('../assets/images/carrier/Supra_HE_key_visual.webp');
+    background-image: url('../assets/images/2.webp');
     transform: rotateY('-90deg')
 }
 
 .img-bg2 {
-    background-image: url('../assets/images/carrier/CARRIER_ECO_DRIVE_syberia.webp');
+    background-image: url('../assets/images/6.webp');
 }
 .img-bg1 {
-    background-image: url('../assets/images/carrier/Trailer_MD.webp');
+    background-image: url('../assets/images/1.webp');
 }
