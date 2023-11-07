@@ -134,8 +134,8 @@ main {
 }
 
 main > section {
-    margin: 40px 0 40px 0;
-    padding: 40px 40px;
+    margin: 0;
+    padding: 60px 40px;
     display: grid;
     place-items: center;
 }
