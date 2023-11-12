@@ -12,11 +12,10 @@
     justify-items: right;
     height: 100%;
     max-width: 100%;
-}
-
-.map iframe {
-    height: 100%;
-    width: 100%;
+    background-image: url("../assets/mapa.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .footer-grid {
