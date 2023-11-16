@@ -39,6 +39,26 @@
     transition: .2s;
 }
 
+.service-linked {
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+.service-linked p {
+    margin: -40px;
+    transform: scaleY(0);
+    transition: .6s scale;
+    color: var(--yellow);
+    font-weight: bold;
+}
+.service-linked:hover {
+    cursor: pointer !important;
+    outline: 2px solid var(--yellow);
+}
+
+.service-linked:hover p {
+    width: 100%;
+    transform: scaleY(1);
+}
 .service-img {
     transition: .2s;
 }

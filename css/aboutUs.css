@@ -34,9 +34,9 @@
     overflow: hidden;
 }
 
-.inverted-skew {
-    transform: rotateZ(-6deg) !important;
-
+.no-skew {
+    transform: rotateZ(0deg) !important;
+    border: none !important;
 }
 
 
