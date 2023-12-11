@@ -42,24 +42,43 @@
 .service-linked {
     text-decoration: none;
     color: var(--dark-blue);
+    text-align: left;
 }
 .service-linked p {
-    margin-top: -40px;
-    transform: scaleY(0);
-    transition: .6s scale;
-    color: var(--yellow);
+    margin-top: 20px;
+    justify-self: first baseline;
+    width: fit-content;
+    color: var(--dark-blue);
     font-weight: bold;
+    border-radius: 6px;
+    background-color: var(--yellow);
+    outline: 2px solid var(--dark-blue);
+    padding: 6px 12px;
+    transition: .2s;
+}
+
+.service-linked:hover p {
+    transform: scale(1.1);
+    margin: 28px 0 0 10px;
 }
 .service-linked:hover {
     cursor: pointer !important;
     outline: 2px solid var(--yellow);
 }
 
-.service-linked:hover p {
-    margin-top: 20px;
-    width: 100%;
-    transform: scaleY(1);
+.service-linked p:hover {
+    box-shadow: #00334e8f 0 0 32px;
 }
+
+.service-linked span {
+    display: inline-block;
+    transition: .2s margin;
+}
+.service-linked:hover span {
+    cursor: pointer !important;
+    margin-left: 20px;
+}
+
 .service-img {
     transition: .2s;
 }
