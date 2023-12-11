@@ -51,13 +51,13 @@
     color: var(--dark-blue);
     font-weight: bold;
     border-radius: 6px;
-    background-color: var(--yellow);
-    outline: 2px solid var(--dark-blue);
-    padding: 6px 12px;
     transition: .2s;
 }
 
 .service-linked:hover p {
+    outline: 2px solid var(--yellow);
+    padding: 6px 12px;
+    color: white;
     transform: scale(1.1);
     margin: 28px 0 0 10px;
 }
@@ -67,7 +67,7 @@
 }
 
 .service-linked p:hover {
-    box-shadow: #00334e8f 0 0 32px;
+    box-shadow: #00334ed2 0 0 20px;
 }
 
 .service-linked span {
